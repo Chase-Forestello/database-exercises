@@ -1,3 +1,4 @@
+-- Complete - MySQL - Tables Exercise
 DROP TABLE IF EXISTS quotes;
 CREATE TABLE quotes
 (
