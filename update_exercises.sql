@@ -1,4 +1,5 @@
 -- Complete - MySQL - Basic Statements Exercise
+-- No use statement here because project was not using a connected database (used Adminer)
 
 -- All albums in the table:
 SELECT * FROM albums;
