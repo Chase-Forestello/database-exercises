@@ -7,7 +7,7 @@ SELECT *
 FROM employees
 WHERE first_name IN ('Irena', 'Vidya', 'Maya');
 
-# All employees named Irena, Vidya, or Maya using OR
+# All male employees named Irena, Vidya, or Maya using OR
 SELECT *
 FROM employees
 WHERE gender = 'M' AND (first_name = 'Irena' OR first_name = 'Vidya' OR first_name = 'Maya');
