@@ -1,4 +1,4 @@
--- Complete - MySQL - Limit exercises
+-- Complete - MySQL - Limit Exercises
 
 use employees;
 
