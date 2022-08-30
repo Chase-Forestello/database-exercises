@@ -3,7 +3,7 @@ use employees;
 
 # All distinct titles from the titles table
 SELECT DISTINCT title
-FROM titles
+FROM titles;
 
 # Distinct last names that start and end with 'e' using GROUP BY
 SELECT last_name
