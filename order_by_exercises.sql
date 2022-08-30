@@ -23,7 +23,7 @@ ORDER BY last_name, first_name;
 # All employees who's last name begins with 'E' and ORDER BY emp_no
 SELECT *
 FROM employees
-WHERE last_name LIKE 'E%'
+WHERE last_name LIKE '%e%'
 ORDER BY emp_no;
 
 # All employees named Irena, Vidya, or Maya using IN, and ORDER BY last_name and then first_name DESC order
@@ -35,5 +35,5 @@ ORDER BY last_name, first_name DESC;
 # All employees who's last name begins with 'E', and ORDER BY emp_no DESC order
 SELECT *
 FROM employees
-WHERE last_name LIKE 'E%'
+WHERE last_name LIKE '%e%'
 ORDER BY emp_no DESC;
