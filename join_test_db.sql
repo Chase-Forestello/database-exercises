@@ -42,7 +42,7 @@ VALUES ('bob', 'bob@example.com', 1),
 
 SELECT users.name, roles.name
 FROM users
-         JOIN roles ON users.role_id = roles.id
+         JOIN roles ON users.role_id = roles.id;
 
 SELECT users.name, roles.name
 FROM users
